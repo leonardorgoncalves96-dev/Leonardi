@@ -1,0 +1,29 @@
+{
+  "name": "Salão IA",
+  "address": "Rua Exemplo, 123 - Centro, Cidade/UF",
+  "payment_methods": ["Pix", "Cartão", "Dinheiro"],
+  "policies": [
+    "Tolerância de 10 minutos de atraso",
+    "Cancelamentos sem custo até 2h antes"
+  ],
+  "services": [
+    {
+      "name": "Corte feminino",
+      "duration_minutes": 60,
+      "price_cents": 12000,
+      "description": "Corte com finalização básica"
+    },
+    {
+      "name": "Corte masculino",
+      "duration_minutes": 45,
+      "price_cents": 8000,
+      "description": "Corte tradicional"
+    },
+    {
+      "name": "Manicure",
+      "duration_minutes": 40,
+      "price_cents": 6000,
+      "description": "Manicure completa"
+    }
+  ]
+}
